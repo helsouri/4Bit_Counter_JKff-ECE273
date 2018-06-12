@@ -1,0 +1,19 @@
+RESET : PROCESS
+   BEGIN
+      CLR <= '0';
+		WAIT FOR 10ns;
+		CLR <= '1';
+		WAIT;
+   END PROCESS;
+CLOCK :PROCESS
+	BEGIN
+		CLK <= '0';
+		WAIT FOR 100ns;
+		CLK <= '1';
+		WAIT FOR 100ns;
+	END PROCESS;
+SPD :PROCESS
+	BEGIN
+		SPEED <= '1';
+		WAIT;
+	END PROCESS;
