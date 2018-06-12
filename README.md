@@ -1,7 +1,7 @@
 # 4Bit_Counter_JKff-ECE273
 The purpose of this lab is to design a 4-bit counter using JK flip flops <br> <br>
 Files available are:<br>
-  1) Pdf report that conatins all of the below along with the procedure <br>
+  1) Pdf report that conatins all of the below,and more, along with the procedure <br>
   2) PlanAhead Generated Physical constraints <br>
   3) Test bench code to test a few sample example <br>
   4) Main binary file(.bit) that is then flashed onto board for Demo <br>
